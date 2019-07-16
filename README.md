@@ -26,6 +26,16 @@ $ python train.py
 
 Trained models are saved under the `logdir` directory.
 
+## Generating
+
+`generate.py` is the entry point:
+
+```
+$ python generate.py --resume="ema_logdir"
+```
+
+audios are saved under the `out` directory.
+
 # Reference
 
 1. [fatchord/WaveRNN](https://github.com/fatchord/WaveRNN).
